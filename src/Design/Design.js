@@ -23,6 +23,16 @@ export default function Design() {
       />
       {state && <Time />}
       {!state && <DigitalClock />}
+      <p
+        style={{
+          opacity: "0.3",
+          bottom: "0px",
+          fontSize: "15px",
+          marginTop: "80px",
+        }}
+      >
+        @ darshana Perera
+      </p>
     </div>
   );
 }

@@ -12,8 +12,13 @@ export default function HeadText() {
         padding: "0px",
       }}
     >
-      <AccessTimeIcon style={{color:"white",fontSize:"70px"}}/>
-      <p style={{margin:"-10px"}} id="headingText">The Clock</p>
+      <AccessTimeIcon style={{ color: "white", fontSize: "70px" }} />
+      <p
+        style={{ margin: "-10px", color: "red", marginBottom: "20px" }}
+        id="headingText"
+      >
+        The Clock
+      </p>
     </div>
   );
 }
